@@ -16,6 +16,7 @@ import Decorator.decorator.Milk;
    4.ConcreteDecorator（具体装饰者）具体的装饰对象，给内部持有的具体被装饰对象，增加具体的职责。
    *****约定共同的超类，被装饰和装饰类继承它，在服务端使用基类接口创建一个被修饰类的主体，
          将装饰类包裹在基类上，生成一个基类的包装加强类，此操作可重复。
+         多组合少继承  开发封闭原则
  */
 public class DecoratorTest {
     public  static void main(String args[]){
