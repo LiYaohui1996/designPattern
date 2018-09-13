@@ -33,5 +33,7 @@ public class strategyTest {
         greenDuck.setFlyBehavior(new GoogFly());
         greenDuck.quack();
         greenDuck.fly();
+
+
     }
 }
